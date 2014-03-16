@@ -827,6 +827,10 @@ a.fa {
         padding: 15% 0;
     }
 
+    #header-arrow {
+        display: none;
+    }        
+
     .blog-title {
         font-size: 4rem;
         letter-spacing: -1px;
@@ -875,6 +879,11 @@ a.fa {
 
 
 @media only screen and (max-width: 500px) {
+
+
+    #header-arrow {
+        display: none;
+    }    
 
     .blog-logo img {
         max-height: 80px;
